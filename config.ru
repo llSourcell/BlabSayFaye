@@ -9,9 +9,9 @@ faye_server = Faye::RackAdapter.new(
 			:timeout => 25,
 			:engine => {
 				:type => 'redis',
-				:host => 'icefish.redistogo.com',
-				:port => '9229',
-				:password => '35113abe57ba883734f012e7db6d4e93',
+				:host => 'stingfish.redistogo.com',
+				:port => '9898',
+				:password => 'a38b2f53ff7ac893a7670b2231aad529',
 				:database => 1
 			})
 run faye_server
